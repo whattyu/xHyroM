@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2206" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2092" class="">
     <defs>
         <style/>
     </defs>
@@ -2504,6 +2504,32 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/>
+                                    </svg>
+                                    <div class="content">
+                      Created new
+                      tag  <span class="code">6.2.6</span> in  <span class="repo">Garlic-Team/GCommands</span>
+                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"/>
+                                    </svg>
+                                    <div class="content">
+                      Released
+                      <span class="bold">v6.2.6</span> of <span class="repo">Garlic-Team/GCommands</span>
+                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
                                     </svg>
                                     <div class="content">
@@ -2565,67 +2591,6 @@ Yes, but the point there is that it doesn't make any logic. It can always be don
 ...whos gonna tell em
 </i>
 https://github.com/abalabahaha/eris/issues/1263#issuecomment-899212091
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#1263 Logic</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by xHyroM in <span class="repo">abalabahaha/eris</span></div>
-                                    <div class="comment"><i>
-<i>
-Why is <code>bot.createMessage</code>? Is the message created to the bot or to the room?
-</i>
-If you were to properly look at that method, you would see that it has <code>channelID</code> as the first argument. At least, I assume that's what you meant by "room", hard to know for sure.
-<i>
-Or why is bot.createGuildEmoji? It doesn't make any logic at all to have it in the bot. Why not just guild.createEmoji or guild.emojis.create?
-</i>
-Firstly, <code>guild.createEmoji()</code> actually does exist. Secondly, for an issue with "Logic" as the title you sure don't give any particular reasons or well... logic... past the single word "why". Here's some "why"s for you:
-Only a guild ID is necessary to create an emoji in a particular server, so why should developers be forced to use the entire <code>Guild</code> object?
-That method doesn't require the emoji cache to work, so why should it be attached to a cache it doesn't need or use? This seems like a combination of poor design and backwards priorities, and gives me "OOP for the sake of OOP" vibes.
-</i>
-<i>
-<i>
-Why is <code>bot.createMessage</code>? Is the message created to the bot or to the room?
-</i>
-If you were to properly look at that method, you would see that it has <code>channelID</code> as the first argument. At least, I assume that's what you meant by "room", hard to know for sure.
-<i>
-Or why is bot.createGuildEmoji? It doesn't make any logic at all to have it in the bot. Why not just guild.createEmoji or guild.emojis.create?
-</i>
-Firstly, <code>guild.createEmoji()</code> actually does exist. Secondly, for an issue with "Logic" as the title you sure don't give any particular reasons or well... logic... past the single word "why". Here's some "why"s for you:
-Only a guild ID is necessary to create an emoji in a particular server, so why should developers be forced to use the entire <code>Guild</code> object?
-That method doesn't require the emoji cache to work, so why should it be attached to a cache it doesn't need or use? This seems like a combination of poor design and backwards priorities, and gives me "OOP for the sake of OOP" vibes.
-</i>
-So as long as the guild.createEmoji() function exists, why is it still in the bot? Do you plan to just add it so people don't have to keep changing it? As well, but then you might have a lot of problems with having duplicate codes and you might end up stopping the semver altogether if you follow it at all.
-</div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#1263 Logic</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by xHyroM in <span class="repo">abalabahaha/eris</span></div>
-                                    <div class="comment"><i>
-you do realize that Eris is a whole different library and there would be no difference in discord.js and Eris if they legit start changing everything just so discord.js users dont complain? you can pass in guildId in createGuildEmoji function to perform the action
-</i>
-Yes, but the point there is that it doesn't make any logic. It can always be done as a djs but also in other ways. Sorry but your <code>bot.x</code> is horrible. It might as well be <code>guild.createEmoji</code>
 </div>
                                 </div>
                             </section>
@@ -2793,7 +2758,7 @@ Yes, but the point there is that it doesn't make any logic. It can always be don
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="64.87616182672184 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="64.88601451063865 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -3261,7 +3226,7 @@ Yes, but the point there is that it doesn't make any logic. It can always be don
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 16/08/2021, 07:15 (timezone Europe/Bratislava) with lowlighter/metrics@3.12.0</span>
+                <span>Last updated 16/08/2021, 08:22 (timezone Europe/Bratislava) with lowlighter/metrics@3.12.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
