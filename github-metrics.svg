@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2146" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2199" class="">
     <defs>
         <style/>
     </defs>
@@ -2583,8 +2583,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <span class="sha">#c9defbd</span>
-                                        <span class="message">deploy: 4f9145cde31af0eed5ab3692bafb50c0dfcaaa6d</span>
+                                        <span class="sha">#6fbc947</span>
+                                        <span class="message">deploy: c9a7e04c561f41e34311e3a7b4bdf1cf047a73b7</span>
                                     </div>
                                 </div>
                             </section>
@@ -2602,8 +2602,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <span class="sha">#b25346f</span>
-                                        <span class="message">deploy: 4f8352c36f8bf50176e78efe81fc494155bfa7ec</span>
+                                        <span class="sha">#f050728</span>
+                                        <span class="message">deploy: f1776031125065ff494f6ef9d231eeaf123b7051</span>
                                     </div>
                                 </div>
                             </section>
@@ -2621,8 +2621,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">docs</span></div>
                                     <div class="commit">
-                                        <span class="sha">#4f9145c</span>
-                                        <span class="message">deploy: f9d43e71d4cc4304a5158c68d6c53191bbe09148</span>
+                                        <span class="sha">#c9a7e04</span>
+                                        <span class="message">deploy: 71cf6e907a7944f82cce54f6392e93dcc5e3861f</span>
                                     </div>
                                 </div>
                             </section>
@@ -2635,32 +2635,42 @@
                                     </svg>
                                     <div class="content">
                       Pushed 1 commit in <span class="repo">Garlic-Team/GCommands</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">docs</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#f177603</span>
+                                        <span class="message">deploy: dcbdfc11523a9a78978a9e9a6ef1a817da726cb9</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 3 commits in <span class="repo">Garlic-Team/GCommands</span>
                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">dev</span></div>
                                     <div class="commit">
-                                        <span class="sha">#f9d43e7</span>
-                                        <span class="message">Update Constants.js</span>
+                                        <span class="sha">#71cf6e9</span>
+                                        <span class="message">Merge pull request #159 from Kill00/dev
+
+fix(GPayload): allowedMentions</span>
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">Garlic-Team/GCommands</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">docs</span></div>
                                     <div class="commit">
-                                        <span class="sha">#4f8352c</span>
-                                        <span class="message">deploy: a11a7ab06dddea1d358a1edce1c8ee4fc0227399</span>
+                                        <span class="sha">#251ced4</span>
+                                        <span class="message">fix</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#b9ed863</span>
+                                        <span class="message">fix allowedMention</span>
                                     </div>
                                 </div>
                             </section>
@@ -2838,7 +2848,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="68.40657151192289 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="68.41489553684677 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -3346,7 +3356,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 01/09/2021, 22:18 (timezone Europe/Bratislava) with lowlighter/metrics@3.13.0</span>
+                <span>Last updated 01/09/2021, 23:15 (timezone Europe/Bratislava) with lowlighter/metrics@3.13.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
