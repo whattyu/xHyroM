@@ -2565,8 +2565,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <span class="sha">#10ebadf</span>
-                                        <span class="message">deploy: e1103641594c855534f92f804de9e75c1b81862c</span>
+                                        <span class="sha">#1106574</span>
+                                        <span class="message">deploy: 84cc959b13c7f6ebff745458e4ae2965650183b6</span>
                                     </div>
                                 </div>
                             </section>
@@ -2584,27 +2584,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">docs</span></div>
                                     <div class="commit">
-                                        <span class="sha">#e110364</span>
-                                        <span class="message">deploy: 0bf1a1d9165944df13ff9a618a3b6d7df32f89f5</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 3 commits in <span class="repo">Garlic-Team/GCommands</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">dev</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#0bf1a1d</span>
-                                        <span class="message">Merge branch 'main' into dev</span>
+                                        <span class="sha">#84cc959</span>
+                                        <span class="message">deploy: fd4731dfc73c18294d2bae73cefddb2f46e2e5db</span>
                                     </div>
                                 </div>
                             </section>
@@ -2622,8 +2603,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <span class="sha">#65aa289</span>
-                                        <span class="message">deploy: 8e64cf04dea8942573f8d1cac2d0289608de6705</span>
+                                        <span class="sha">#f0ef20b</span>
+                                        <span class="message">deploy: 01abc3be82fd9f6355682c048ebb9b14054d9194</span>
                                     </div>
                                 </div>
                             </section>
@@ -2641,8 +2622,27 @@
                                 <div class="details">
                                     <div>on branch <span class="code">docs</span></div>
                                     <div class="commit">
-                                        <span class="sha">#8e64cf0</span>
-                                        <span class="message">deploy: d4b405f36178b29d81455e445562202f924c3aa3</span>
+                                        <span class="sha">#01abc3b</span>
+                                        <span class="message">deploy: 4f200e55bccfc1031ae10f843ccd18b79d1ad545</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 1 commit in <span class="repo">Garlic-Team/GCommands</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#10ebadf</span>
+                                        <span class="message">deploy: e1103641594c855534f92f804de9e75c1b81862c</span>
                                     </div>
                                 </div>
                             </section>
@@ -2820,7 +2820,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="68.99001554881723 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="68.99926337590372 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -3328,7 +3328,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 04/09/2021, 16:15 (timezone Europe/Bratislava) with lowlighter/metrics@3.13.0</span>
+                <span>Last updated 04/09/2021, 17:18 (timezone Europe/Bratislava) with lowlighter/metrics@3.13.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
