@@ -1,0 +1,20 @@
+.nopage-text {
+  margin-top: 15rem;
+  text-align: center;
+  font-size: 10rem;
+  font-weight: 900;
+}
+
+.nopage-cat {
+  border-radius: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15rem;
+}
+
+@media (min-width: 800px) {
+  .nopage-cat {
+    width: 18rem;
+  }
+}
