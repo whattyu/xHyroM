@@ -19,7 +19,6 @@ button {
 .white-mode {
   transition: 1s;
   background-color: white;
-  background-image: none;
   h1 {
     color: black;
   }
@@ -30,6 +29,16 @@ button {
 
   i {
     color: black;
+  }
+
+  .snow {
+    color: black;
+  }
+
+  .countdown-box {
+    transition: 1s;
+    color: black;
+    background-color: var(--dark-gray);
   }
 
   button {

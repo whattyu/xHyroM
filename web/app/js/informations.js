@@ -1,8 +1,37 @@
-const getMyAge = () => {
-    let date = new Date("2005-11-06").getTime()
-    let today = new Date().getTime()
-    let diff = (today - date);
-    return (diff / (1000 * 60 * 60 * 24 * 365.25)).toFixed(2);
+const getRandomInteger = (min, max) => {
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
+
+const getMyAge = (obj, start, end, duration) => {
+    let startTimestamp = null;
+
+    const step = (timestamp) => {
+      if (!startTimestamp) startTimestamp = timestamp;
+      const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+
+      obj.innerHTML = Math.floor(progress * (end - start) + start);
+
+      if (progress < 1) {
+        window.requestAnimationFrame(step);
+      }
+
+      if(progress == 1) {
+        getMyAge(obj, end, start, duration)
+      }
+    };
+
+    window.requestAnimationFrame(step);
+}
+
+const getMyDiscordStatus = async() => {
+    const res = (await (await fetch('https://api.lanyard.rest/v1/users/525316393768452098')).json()).data;
+    const status = res.discord_status;
+
+    document.getElementById('hero-image-pfp').src = `app/assets/hyro/${status}.gif`;
+
+    setInterval(() => {
+        getMyDiscordStatus();
+    }, 10000);
 }
 
 const startCountdown = (countdownDate) =>{
@@ -62,6 +91,8 @@ const countdown = () =>{
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('age').innerText = getMyAge();
+    getMyAge(document.getElementById('age'), 0, getRandomInteger(16, 1000), 5000);
     countdown();
 })
+
+getMyDiscordStatus();
