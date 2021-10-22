@@ -2,11 +2,14 @@ html {
   font-size: 100%;
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+  user-select: none;
 }
+
 body {
   transition: 1s;
   font-family: Arial, Helvetica, sans-serif;
