@@ -42,7 +42,7 @@ a {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0.5rem;
 }
 
@@ -99,7 +99,7 @@ footer {
   left: -2px;
 }
 
-@-webkit-keyframes animation-text {
+@keyframes animation-text {
   0% {
     color: #fff;
   }

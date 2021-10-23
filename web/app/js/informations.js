@@ -24,10 +24,18 @@ const getMyAge = (obj, start, end, duration) => {
 }
 
 const getMyDiscordStatus = async() => {
+    const element = document.getElementById('hero-image-pfp');
     const res = (await (await fetch('https://api.lanyard.rest/v1/users/525316393768452098')).json()).data;
     const status = res.discord_status;
 
-    document.getElementById('hero-image-pfp').src = `app/assets/hyro/${status}.gif`;
+    if(element.src !== `app/assets/hyro/${status}.gif`) {
+        element.classList.add('animate__animated', 'animate__tada');
+        element.src = `app/assets/hyro/${status}.gif`;
+
+        element.addEventListener('animationend', () => {
+            element.classList.remove('animate__animated', 'animate__tada');
+        })
+    }
 
     setInterval(() => {
         getMyDiscordStatus();
@@ -45,12 +53,16 @@ const startCountdown = (countdownDate) =>{
         let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         let seconds = Math.floor((distance % (1000 * 60)) / 1000);
       
-        document.getElementById('countdown-text').classList.add('animated');
-        document.getElementById('countdown-text').classList.add('bounceIn');
-        document.getElementById('countdown-text').innerHTML = `${countdownDate.type} in ${days}d ${hours}h ${minutes}m ${seconds}s`;
+        const element = document.getElementById('countdown-text');
+        
+        element.innerHTML = `${countdownDate.type} in ${days}d ${hours}h ${minutes}m ${seconds}s`;
 
         if (distance < 0) {
-            document.getElementById('countdown-text').innerText = `${countdownDate.type} 🎉`;
+            element.classList.add('animate__animated', 'animate__bounceIn');
+            element.innerText = `${countdownDate.type} 🎉`;
+            element.addEventListener('animationend', () => {
+                element.classList.remove('animate__animated', 'animate__bounceIn');
+            })
 
             clearInterval(x);
 
