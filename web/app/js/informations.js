@@ -45,12 +45,12 @@ const startCountdown = (countdownDate) =>{
         let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         let seconds = Math.floor((distance % (1000 * 60)) / 1000);
       
-        document.getElementById("countdown-text").classList.add("animated");
-        document.getElementById("countdown-text").classList.add("bounceIn");
-        document.getElementById("countdown-text").innerHTML = `${countdownDate.type} in ${days}d ${hours}h ${minutes}m ${seconds}s`;
+        document.getElementById('countdown-text').classList.add('animated');
+        document.getElementById('countdown-text').classList.add('bounceIn');
+        document.getElementById('countdown-text').innerHTML = `${countdownDate.type} in ${days}d ${hours}h ${minutes}m ${seconds}s`;
 
         if (distance < 0) {
-            document.getElementById("countdown-text").innerText = `${countdownDate.type} 🎉`;
+            document.getElementById('countdown-text').innerText = `${countdownDate.type} 🎉`;
 
             clearInterval(x);
 
@@ -93,6 +93,24 @@ const countdown = () =>{
 document.addEventListener('DOMContentLoaded', () => {
     getMyAge(document.getElementById('age'), 0, getRandomInteger(16, 1000), 5000);
     countdown();
+})
+
+document.getElementById('hero-music-text').addEventListener('click', () => {
+    const audio = document.getElementById('hero-music');
+    const element = document.getElementById('hero-music-text');
+
+    if(element.classList.contains('alrplay')) {
+        element.classList.remove('alrplay');
+        audio.pause();
+    } else {
+        let int = getRandomInteger(0, 100);
+        if(int > 5 && int < 25) document.getElementById('hero-music-source').src = 'app/assets/music/otherside.mp3'
+        else document.getElementById('hero-music-source').src = 'app/assets/music/christmas.mp3'
+        audio.load();
+
+        element.classList.add('alrplay');
+        audio.play();
+    }
 })
 
 getMyDiscordStatus();

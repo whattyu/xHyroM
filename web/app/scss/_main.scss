@@ -77,6 +77,14 @@ footer {
   font-weight: 600;
 }
 
+#hero-music-text {
+  cursor: pointer;
+}
+
+#hero-music-text:hover {
+  animation: animation-text 7s infinite;
+}
+
 .light-dark {
   position: absolute;
   display: column;
@@ -89,4 +97,46 @@ footer {
   position: relative;
   top: 5px;
   left: -2px;
+}
+
+@-webkit-keyframes animation-text {
+  0% {
+    color: #fff;
+  }
+  2% {
+    color: rgb(182, 161, 161);
+  }
+  5% {
+   color:#f45c41
+  }
+  10% {
+   color:#f4ac41
+  }
+  20% {
+   color:#f4f441
+  }
+  30% {
+   color:#4ef442
+  }
+  40% {
+   color:#41b5f4
+  }
+  50% {
+   color:#8a4cff
+  }
+  60% {
+   color:#41b5f4
+  }
+  70% {
+   color:#4ef442
+  }
+  80% {
+   color:#f4f441
+  }
+  90% {
+   color:#f4ac41
+  }
+  to {
+   color:#f45c41
+  }
 }

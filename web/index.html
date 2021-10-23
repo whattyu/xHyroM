@@ -22,7 +22,7 @@
                     <img src='app/assets/hyro/normal.gif' alt='pfp' id='hero-image-pfp'>
                 </div>
                 <div class='hero-text'>
-                    <h1>Hyro <img class='dev-bage' src='app/assets/dev.svg' alt='dev-bage'></h1>
+                    <h1 id='hero-music-text'>Hyro <img class='dev-bage' src='app/assets/dev.svg' alt='dev-bage'></h1>
                     <p>I’m a <span id='age'>0</span> years old backend developer. </p>
                     <a href='https://github.com/xHyroM' target='_blank'><i class='fab fa-github'></i></a>
                     <a href='https://twitter.com/hyrousek' target='_blank'><i class='fab fa-twitter'></i></a>
@@ -45,15 +45,14 @@
         </div>
     </footer>
 
-    <video id='my-video' class='video-js' controls preload='auto' width='0' height='0' autoplay='0' hidden='0' loop='0' data-setup='{}' style='display: none;'>
-        <source src='app/assets/music/christmas.mp3' type='video/mp4' />
-    </video>
+    <audio id='hero-music' hidden loop>
+        <source id='hero-music-source'>
+    </audio>
 
     <script src='app/js/informations.js'></script>
     <script src='app/js/winter/snow.js'></script>
     <script src='app/js/script.js'></script>
     <script src='app/js/theme.js'></script>
-    <script src='https://vjs.zencdn.net/7.15.4/video.min.js'></script>
     <script src='https://kit.fontawesome.com/5acf4d9e80.js' crossorigin='anonymous'></script>
 </body>
 
