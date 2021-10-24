@@ -28,7 +28,8 @@ const getMyDiscordStatus = async() => {
     const res = (await (await fetch('https://api.lanyard.rest/v1/users/525316393768452098')).json()).data;
     const status = res.discord_status;
 
-    if(element.src !== `app/assets/hyro/${status}.gif`) {
+    console.log('ff')
+    if(element.src.split('/').slice(-1)[0].split('.')[0] !== status) {
         element.classList.add('animate__animated', 'animate__tada');
         element.src = `app/assets/hyro/${status}.gif`;
 
@@ -37,7 +38,7 @@ const getMyDiscordStatus = async() => {
         })
     }
 
-    setInterval(() => {
+    setTimeout(() => {
         getMyDiscordStatus();
     }, 10000);
 }
@@ -79,23 +80,27 @@ const countdown = () =>{
     let dates = [
         {
             date: `Januar 1, ${now.getFullYear() + 1} 00:00:00`,
+            dateDone: `Januar 1, ${now.getFullYear() + 1} 23:59:60`,
             type: 'New Year'
         },
         {
             date: `November 2, ${now.getFullYear()} 00:00:00`,
+            dateDone: `November 2, ${now.getFullYear()} 23:59:60`,
             type: 'Saints'
         },
         {
             date: `November 6, ${now.getFullYear()} 00:00:00`,
+            dateDone: `November 6, ${now.getFullYear()} 23:59:60`,
             type: 'Birthday'
         }, 
         {
             date: `December 25, ${now.getFullYear()} 00:00:00`,
+            dateDone: `December 25, ${now.getFullYear()} 23:59:60`,
             type: 'Christmas'
         }
     ];
 
-    dates = dates.filter(d => new Date(d.date) > Date.now())
+    dates = dates.filter(d => (new Date(d.date) > Date.now() || new Date(d.dateDone) > Date.now()));
     let datesMap = dates.map(d => Math.abs(new Date() - new Date(d.date).getTime()));
     let date = dates[datesMap.indexOf(Math.min(...datesMap))];
 
