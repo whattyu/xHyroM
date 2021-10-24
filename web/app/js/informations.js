@@ -28,7 +28,6 @@ const getMyDiscordStatus = async() => {
     const res = (await (await fetch('https://api.lanyard.rest/v1/users/525316393768452098')).json()).data;
     const status = res.discord_status;
 
-    console.log('ff')
     if(element.src.split('/').slice(-1)[0].split('.')[0] !== status) {
         element.classList.add('animate__animated', 'animate__tada');
         element.src = `app/assets/hyro/${status}.gif`;
@@ -43,7 +42,7 @@ const getMyDiscordStatus = async() => {
     }, 10000);
 }
 
-const startCountdown = (countdownDate) =>{
+const startCountdown = (countdownDate) => {
     let x = setInterval(function() {
         let now = new Date().getTime();
       
@@ -121,9 +120,11 @@ document.getElementById('hero-music-text').addEventListener('click', () => {
         audio.pause();
     } else {
         let int = getRandomInteger(0, 100);
-        if(int > 5 && int < 25) document.getElementById('hero-music-source').src = 'app/assets/music/otherside.mp3'
-        else document.getElementById('hero-music-source').src = 'app/assets/music/christmas.mp3'
+        if(int > 5 && int < 25) document.getElementById('hero-music-source').src = 'app/assets/music/otherside.mp3';
+        else if(int > 25 && int < 50) document.getElementById('hero-music-source').src = 'app/assets/music/pigstep.mp3';
+        else document.getElementById('hero-music-source').src = 'app/assets/music/christmas.mp3';
         audio.load();
+        audio.volume = 0.2;
 
         element.classList.add('alrplay');
         audio.play();
