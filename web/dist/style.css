@@ -136,6 +136,11 @@ footer {
           animation: animation-text 7s infinite;
 }
 
+.alrplay {
+  -webkit-animation: animation-text 7s infinite;
+          animation: animation-text 7s infinite;
+}
+
 .light-dark {
   position: absolute;
   display: column;
@@ -187,8 +192,14 @@ footer {
   90% {
     color: #f4ac41;
   }
-  to {
+  95% {
     color: #f45c41;
+  }
+  100% {
+    color: #fff;
+  }
+  to {
+    color: #b6a1a1;
   }
 }
 
@@ -229,8 +240,14 @@ footer {
   90% {
     color: #f4ac41;
   }
-  to {
+  95% {
     color: #f45c41;
+  }
+  100% {
+    color: #fff;
+  }
+  to {
+    color: #b6a1a1;
   }
 }
 
