@@ -1,3 +1,7 @@
+const getRandomInteger = (min, max) => {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 document.onkeydown = (e) => {
   e = e || window.event;
   if (e.ctrlKey) {
@@ -21,4 +25,22 @@ window.addEventListener("contextmenu", (e) => {
 
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('copirajt-jir').innerText = new Date().getFullYear();
+})
+
+document.getElementById('hero-music-text').addEventListener('click', () => {
+  const audio = document.getElementById('hero-music');
+  const element = document.getElementById('hero-music-text');
+
+  if (element.classList.contains('alrplay')) {
+      element.classList.remove('alrplay');
+      audio.pause();
+  } else {
+      let music = ['afbhc','dl','christmas','iatd','levels','otherside','pigstep']
+      document.getElementById('hero-music-source').src = `app/assets/music/${music[getRandomInteger(0, music.length)]}.mp3`;
+      audio.load();
+      audio.volume = 0.2;
+
+      element.classList.add('alrplay');
+      audio.play();
+  }
 })

