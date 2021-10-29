@@ -1,6 +1,4 @@
-const getRandomInteger = (min, max) => {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+const Util = require('./utils');
 
 const getMyAge = (obj, start, end, duration) => {
     let startTimestamp = null;
@@ -108,7 +106,7 @@ const countdown = () => {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    getMyAge(document.getElementById('age'), 0, getRandomInteger(16, 1000), 5000);
+    getMyAge(document.getElementById('age'), 0, Util.getRandomInteger(16, 1000), 5000);
     countdown();
 })
 

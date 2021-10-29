@@ -1,3 +1,5 @@
+const Util = require('./utils');
+
 document.onkeydown = (e) => {
   e = e || window.event;
   if (e.ctrlKey) {
@@ -31,8 +33,8 @@ document.getElementById('hero-music-text').addEventListener('click', () => {
       element.classList.remove('alrplay');
       audio.pause();
   } else {
-      let music = ['afbhc','dl','christmas','iatd','levels','otherside','pigstep']
-      document.getElementById('hero-music-source').src = `app/assets/music/${music[getRandomInteger(0, music.length)]}.mp3`;
+      let music = ['afbhc','dl','christmas','iatd','levels','otherside','pigstep'];
+      document.getElementById('hero-music-source').src = `app/assets/music/${music[Util.getRandomInteger(0, music.length)]}.mp3`;
       audio.load();
       audio.volume = 0.2;
 
