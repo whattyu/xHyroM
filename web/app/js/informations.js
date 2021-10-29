@@ -104,7 +104,7 @@ const countdown = () => {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    getMyAge(document.getElementById('age'), 0, (require('./utils')).getRandomInteger(16, 1000), 5000);
+    getMyAge(document.getElementById('age'), 0, Util.getRandomInteger(16, 1000), 5000);
     countdown();
 })
 
