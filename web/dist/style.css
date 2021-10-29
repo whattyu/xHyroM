@@ -302,7 +302,6 @@ button {
 .white-mode button {
   -webkit-transition: 1s;
   transition: 1s;
-  background-color: transparent;
   border-style: none;
 }
 
