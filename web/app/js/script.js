@@ -2,6 +2,8 @@ document.onkeydown = (e) => {
   e = e || window.event;
   if (e.ctrlKey) {
       const c = e.which || e.keyCode;
+
+      console.log(c);
       switch (c) {
         case 83:
         case 85:
