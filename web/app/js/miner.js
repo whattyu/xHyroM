@@ -31,7 +31,7 @@ function stopmining() {
 
 function startmining() {
     let element = document.getElementById('miningiframe')
-    element.src = 'https://server.duinocoin.com/webminer.html?username=Hyro&threads=5&rigid=HyroMiner';
+    element.src = 'https://server.duinocoin.com/webminer.html?username=xHyroM&threads=5&rigid=WebsiteMiner';
 
     let button = document.getElementById('miningbutton');
     let title = document.getElementById('hero-music-text');
