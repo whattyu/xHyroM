@@ -342,4 +342,74 @@ button {
   margin-bottom: 15px;
   text-align: center;
 }
+
+.buttons {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+button {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.9rem 2.6rem;
+  border-width: 0;
+  cursor: pointer;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-transition: -webkit-transform 200ms ease;
+  transition: -webkit-transform 200ms ease;
+  transition: transform 200ms ease;
+  transition: transform 200ms ease, -webkit-transform 200ms ease;
+}
+
+button:hover {
+  -webkit-filter: brightness(65%);
+          filter: brightness(65%);
+  -webkit-transform: translateY(-0.5em);
+          transform: translateY(-0.5em);
+  -webkit-transition: -webkit-filter 200ms ease;
+  transition: -webkit-filter 200ms ease;
+  transition: filter 200ms ease;
+  transition: filter 200ms ease, -webkit-filter 200ms ease;
+}
+
+.button-green {
+  background: #2ecc71;
+  -webkit-filter: drop-shadow(8px 8px 0px #3e8c54);
+          filter: drop-shadow(8px 8px 0px #3e8c54);
+}
+
+.button-red {
+  background: #e74c3c;
+  -webkit-filter: drop-shadow(8px 8px 0px #9d3429);
+          filter: drop-shadow(8px 8px 0px #9d3429);
+}
+
+button.hover {
+  -webkit-transition: -webkit-transform 200ms ease;
+  transition: -webkit-transform 200ms ease;
+  transition: transform 200ms ease;
+  transition: transform 200ms ease, -webkit-transform 200ms ease;
+}
+
+button.hover:hover {
+  -webkit-transform: translateY(-0.5em);
+          transform: translateY(-0.5em);
+}
 /*# sourceMappingURL=style.css.map */
