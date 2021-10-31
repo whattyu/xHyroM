@@ -7,8 +7,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Hyro - Home</title>
     
-    <link rel='stylesheet' href='dist/style.css'>
-    <link rel='icon' href='app/assets/hyro.ico'>
+    <link rel='stylesheet' href='../dist/style.css'>
+    <link rel='icon' href='../app/assets/hyro.ico'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'>
 
     <script async src="https://arc.io/widget.min.js#i3k4wjxu"></script>
@@ -18,18 +18,24 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1621033475514973" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div style="background: purple; color: white; font-size: 14px; padding: 1.5rem;">
+        <marquee behavior="alternate" direction="left" scrollamount="2"><span style="float: left; font-family: Oswald, Arial; padding: 0 0 0 2px;">JEZISKOVA DIELNA</span></marquee><marquee behavior="alternate" direction="right" scrollamount="2"><span style="float: right; padding: 0 2px 0 0;"><a href="https://discord.gg/zTKwYcuykq">PRIJD NA JEZISKOVU DIELNU K SUPER KOMUNITE A MOZNO VYHRAS NITRO!!</a></span></marquee>
+        <a href='https://discord.gg/zTKwYcuykq' style="background: #FFF; color: purple; float: left;">KLIKNI!!!</a><div style="float: right; font-size: xx-small;">
+        Ads powered by <span style="background: #FFF; color: purple;">Sajstm</span></div>
+    </div>
+
     <section>
         <div class='animate__animated animate__fadeInDown'>
             <div class='center'>
                 <div class='hero-text'>
-                    <h1 id='hero-music-text'>Už ťažím... Mrkni TaskManager</h1>
-                    <button class='button-red hover' onclick='stopmining()' id='miningbutton'>Horí mi počítač!</button>
+                    <h1 id='hero-music-text' class='hero-music-otherpath'>Neťažím...</h1>
+                    <button class='button-green hover' onclick='startmining()' id='miningbutton'>Zapni ťaženie!</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <iframe src="https://server.duinocoin.com/webminer.html?username=xHyroM&threads=5&rigid=WebsiteMiner" id='miningiframe' hidden></iframe>
+    <iframe src="" id='miningiframe' hidden></iframe>
 
     <div class='light-dark'>
         <button onclick='darklight()' class='switch'>
@@ -47,12 +53,12 @@
         </div>        
     </footer>
 
-    <script src='arc-sw.js'></script>
-    <script src='app/js/utils.js'></script>
-    <script src='app/js/winter/snow.js'></script>
-    <script src='app/js/miner.js'></script>
-    <script src='app/js/script.js'></script>
-    <script src='app/js/theme.js'></script>
+    <script src='../arc-sw.js'></script>
+    <script src='../app/js/utils.js'></script>
+    <script src='../app/js/winter/snow.js'></script>
+    <script src='../app/js/miner/duino.js'></script>
+    <script src='../app/js/script.js'></script>
+    <script src='../app/js/theme.js'></script>
     <script src='https://kit.fontawesome.com/5acf4d9e80.js' crossorigin='anonymous'></script>
 </body>
 

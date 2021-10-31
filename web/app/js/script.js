@@ -34,7 +34,10 @@ document.getElementById('hero-music-text').addEventListener('click', () => {
       audio.pause();
   } else {
       let music = ['afbhc','dl','christmas','iatd','levels','otherside','pigstep'];
-      document.getElementById('hero-music-source').src = `app/assets/music/${music[Util.getRandomInteger(0, music.length)]}.mp3`;
+
+      if(element.classList.contains('hero-music-otherpath')) document.getElementById('hero-music-source').src = `../app/assets/music/${music[Util.getRandomInteger(0, music.length)]}.mp3`;
+      else document.getElementById('hero-music-source').src = `app/assets/music/${music[Util.getRandomInteger(0, music.length)]}.mp3`;
+
       audio.load();
       audio.volume = 0.2;
 

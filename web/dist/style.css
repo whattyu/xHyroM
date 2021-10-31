@@ -371,6 +371,7 @@ button {
   display: inline-block;
   text-decoration: none;
   white-space: nowrap;
+  border: none;
   -webkit-transition: -webkit-transform 200ms ease;
   transition: -webkit-transform 200ms ease;
   transition: transform 200ms ease;
