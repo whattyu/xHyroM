@@ -3,6 +3,9 @@
     if(isBrave) {
         alert('NOOB BRAVE IS BAD!!!!!!!')
     }
+
+    let urlParams = new URLSearchParams(window.location.search);
+    if(urlParams.get('start')) startmining();
 })();
 
 function stopmining() {
