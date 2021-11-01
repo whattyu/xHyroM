@@ -80,6 +80,16 @@ const countdown = () => {
             type: 'New Year'
         },
         {
+            date: `October 31, ${now.getFullYear()} 00:00:00`,
+            dateDone: `October 31, ${now.getFullYear()} 23:59:60`,
+            type: 'Halloween'
+        },
+        {
+            date: `November 1, ${now.getFullYear()} 00:00:00`,
+            dateDone: `November 1, ${now.getFullYear()} 23:59:60`,
+            type: 'NNN (No Nut November)'
+        },
+        {
             date: `November 2, ${now.getFullYear()} 00:00:00`,
             dateDone: `November 2, ${now.getFullYear()} 23:59:60`,
             type: 'Saints'
