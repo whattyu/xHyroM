@@ -1448,7 +1448,7 @@
           </h2>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-            5292 Commits
+            5296 Commits
           </div>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/></svg>
@@ -1519,7 +1519,7 @@
             </div>
                                 <div class="field">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M2.5 3.5c0-.133.058-.318.282-.55.227-.237.592-.484 1.1-.708C4.899 1.795 6.354 1.5 8 1.5c1.647 0 3.102.295 4.117.742.51.224.874.47 1.101.707.224.233.282.418.282.551 0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 5.205 9.646 5.5 8 5.5c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707-.224-.233-.282-.418-.282-.551zM1 3.5c0-.626.292-1.165.7-1.59.406-.422.956-.767 1.579-1.041C4.525.32 6.195 0 8 0c1.805 0 3.475.32 4.722.869.622.274 1.172.62 1.578 1.04.408.426.7.965.7 1.591v9c0 .626-.292 1.165-.7 1.59-.406.422-.956.767-1.579 1.041C11.476 15.68 9.806 16 8 16c-1.805 0-3.475-.32-4.721-.869-.623-.274-1.173-.62-1.579-1.04-.408-.426-.7-.965-.7-1.591v-9zM2.5 8V5.724c.241.15.503.286.779.407C4.525 6.68 6.195 7 8 7c1.805 0 3.475-.32 4.722-.869.275-.121.537-.257.778-.407V8c0 .133-.058.318-.282.55-.227.237-.592.484-1.1.708C11.101 9.705 9.646 10 8 10c-1.647 0-3.102-.295-4.117-.742-.51-.224-.874-.47-1.101-.707C2.558 8.318 2.5 8.133 2.5 8zm0 2.225V12.5c0 .133.058.318.282.55.227.237.592.484 1.1.708 1.016.447 2.471.742 4.118.742 1.647 0 3.102-.295 4.117-.742.51-.224.874-.47 1.101-.707.224-.233.282-.418.282-.551v-2.275c-.241.15-.503.285-.778.406-1.247.549-2.917.869-4.722.869-1.805 0-3.475-.32-4.721-.869a6.236 6.236 0 01-.779-.406z"/></svg>
-              412 MB used
+              417 MB used
             </div>
                             </section>
                             <section>
@@ -1559,14 +1559,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="459.56919750157226" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="459.56919750157226" y="0" width="0.11843080681739228" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="459.68762830838966" y="0" width="0.10124064882491546" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="459.7888689572146" y="0" width="0.09497122358579117" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="459.8838401808004" y="0" width="0.07707509145079212" height="8" fill="#a91e50"/>
-                    <rect mask="url(#languages-bar)" x="459.9609152722512" y="0" width="0.02727788290804503" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="459.98819315515925" y="0" width="0.011487178083045875" height="8" fill="#c6538c"/>
-                    <rect mask="url(#languages-bar)" x="459.9996803332423" y="0" width="0.00031966675774973565" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="459.58948349369064" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="459.58948349369064" y="0" width="0.11285403689977147" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="459.7023375305904" y="0" width="0.09647334359429462" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="459.7988108741847" y="0" width="0.09049913834913886" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="459.8893100125339" y="0" width="0.07344571440818358" height="8" fill="#a91e50"/>
+                    <rect mask="url(#languages-bar)" x="459.962755726942" y="0" width="0.025993398905056475" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="459.9887491258471" y="0" width="0.01094626013362534" height="8" fill="#c6538c"/>
+                    <rect mask="url(#languages-bar)" x="459.9996953859807" y="0" width="0.00030461401930955215" height="8" fill="#89e051"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -1672,7 +1672,7 @@
           </div>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/></svg>
-            Average per day at ~5.58
+            Average per day at ~5.59
           </div>
                     </section>
                 </div>
@@ -2670,10 +2670,10 @@
                                 <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4.336842105263158 0,3.336842105263158 z"/>
                                 <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3.336842105263158 1.7,4.336842105263158 z"/>
                             </g>
-                            <g transform="translate(-5.1, 8.74736842105263)">
+                            <g transform="translate(-5.1, 8.526315789473685)">
                                 <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.2526315789473683 0,1.2526315789473683 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.2526315789473683 1.7,2.2526315789473683 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.473684210526316 0,1.4736842105263157 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.4736842105263157 1.7,2.473684210526316 z"/>
                             </g>
                         </g>
                     </g>
@@ -2699,8 +2699,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">gh-pages</span></div>
                                     <div class="commit">
-                                        <span class="sha">#b4bec29</span>
-                                        <span class="message">deploy: 289cd6f5d06fd5a797fa4e1a2e8c41289a728d85</span>
+                                        <span class="sha">#35fe478</span>
+                                        <span class="message">deploy: b6f9f91c99b70e88834c4a5b2663092c95bba016</span>
                                     </div>
                                 </div>
                             </section>
@@ -2718,8 +2718,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">gh-pages</span></div>
                                     <div class="commit">
-                                        <span class="sha">#243a997</span>
-                                        <span class="message">deploy: 6360fd20d1bc62ddb74540e795fd3c61377c36d7</span>
+                                        <span class="sha">#05bd581</span>
+                                        <span class="message">deploy: 5d4f2288d218784e1beb659676c21e487d35b5bd</span>
                                     </div>
                                 </div>
                             </section>
@@ -2737,8 +2737,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <span class="sha">#289cd6f</span>
-                                        <span class="message">11/24 | Build 44c93628807f2bc2c28162fd14cdbcc161c8fea3</span>
+                                        <span class="sha">#5d4f228</span>
+                                        <span class="message">11/24 | Build e9ef34fcc504dc4bda97780eeb4869896974818b</span>
                                     </div>
                                 </div>
                             </section>
@@ -2756,8 +2756,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <span class="sha">#6360fd2</span>
-                                        <span class="message">11/24 | Build 44c93628807f2bc2c28162fd14cdbcc161c8fea3</span>
+                                        <span class="sha">#b6f9f91</span>
+                                        <span class="message">11/24 | Build e9ef34fcc504dc4bda97780eeb4869896974818b</span>
                                     </div>
                                 </div>
                             </section>
@@ -2775,8 +2775,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">gh-pages</span></div>
                                     <div class="commit">
-                                        <span class="sha">#b92fdc4</span>
-                                        <span class="message">deploy: 7fa8e85ad2b51dacdc6ac049ed14c0d6e04630ba</span>
+                                        <span class="sha">#3a1bdc5</span>
+                                        <span class="message">deploy: 4c9e353ab5b11fd9b8bae4ceb7ab76cd6ee9e474</span>
                                     </div>
                                 </div>
                             </section>
@@ -2801,7 +2801,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="39.26666666666667 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="39.57666666666667 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -2824,7 +2824,7 @@
                   
                   
                 </div>
-                                <div class="text">Repositories have been deployed 1380 times</div>
+                                <div class="text">Repositories have been deployed 1383 times</div>
                             </div>
                         </div>
                         <div class="achievement a largeable-width-half">
@@ -3462,7 +3462,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 24 Nov 2021, 01:59:17 (timezone Europe/Bratislava) with lowlighter/metrics@3.16.0</span>
+                <span>Last updated 24 Nov 2021, 04:19:36 (timezone Europe/Bratislava) with lowlighter/metrics@3.16.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
