@@ -1448,7 +1448,7 @@
           </h2>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-            5298 Commits
+            5301 Commits
           </div>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/></svg>
@@ -1559,14 +1559,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="459.59892653678276" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="459.59892653678276" y="0" width="0.11025807421084902" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="459.7091846109936" y="0" width="0.09425418327600836" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="459.8034387942696" y="0" width="0.08841740168301815" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="459.89185619595264" y="0" width="0.07175625482390455" height="8" fill="#a91e50"/>
-                    <rect mask="url(#languages-bar)" x="459.96361245077657" y="0" width="0.02539547706220974" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="459.98900792783877" y="0" width="0.010694465127697748" height="8" fill="#c6538c"/>
-                    <rect mask="url(#languages-bar)" x="459.99970239296647" y="0" width="0.0002976070335572161" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="459.6079449148662" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="459.6079449148662" y="0" width="0.1077788550872152" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="459.71572376995346" y="0" width="0.09213482126707738" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="459.80785859122057" y="0" width="0.08642928321928225" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="459.8942878744398" y="0" width="0.07014277226969663" height="8" fill="#a91e50"/>
+                    <rect mask="url(#languages-bar)" x="459.9644306467095" y="0" width="0.024824444483987556" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="459.98925509119346" y="0" width="0.010453993646117902" height="8" fill="#c6538c"/>
+                    <rect mask="url(#languages-bar)" x="459.99970908483954" y="0" width="0.000290915160384173" height="8" fill="#89e051"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -1672,7 +1672,7 @@
           </div>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/></svg>
-            Average per day at ~5.59
+            Average per day at ~5.60
           </div>
                     </section>
                 </div>
@@ -2670,10 +2670,10 @@
                                 <path fill="#216e39" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,4.336842105263158 0,3.336842105263158 z"/>
                                 <path fill="#216e39" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,3.336842105263158 1.7,4.336842105263158 z"/>
                             </g>
-                            <g transform="translate(-5.1, 8.431578947368422)">
-                                <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.568421052631579 0,1.568421052631579 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.568421052631579 1.7,2.568421052631579 z"/>
+                            <g transform="translate(-5.1, 8.273684210526316)">
+                                <path fill="#40c463" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#40c463" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2.7263157894736842 0,1.7263157894736842 z"/>
+                                <path fill="#40c463" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1.7263157894736842 1.7,2.7263157894736842 z"/>
                             </g>
                         </g>
                     </g>
@@ -2699,8 +2699,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">gh-pages</span></div>
                                     <div class="commit">
-                                        <span class="sha">#b52ab1b</span>
-                                        <span class="message">deploy: 29a19d879cf023b010300aaf30f3cdd1e51cc616</span>
+                                        <span class="sha">#de3016a</span>
+                                        <span class="message">deploy: 77892d48b122aab08d3a1bf9e0b650776e914a39</span>
                                     </div>
                                 </div>
                             </section>
@@ -2718,8 +2718,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <span class="sha">#29a19d8</span>
-                                        <span class="message">11/24 | Build cf69b5013dc24e8126da33dcf3c59c2b6c285aef</span>
+                                        <span class="sha">#77892d4</span>
+                                        <span class="message">11/24 | Build c08c5de4016b861548744a68a77e986ff89d8b47</span>
                                     </div>
                                 </div>
                             </section>
@@ -2737,8 +2737,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <span class="sha">#4463231</span>
-                                        <span class="message">11/24 | Build cf69b5013dc24e8126da33dcf3c59c2b6c285aef</span>
+                                        <span class="sha">#81e7863</span>
+                                        <span class="message">11/24 | Build c08c5de4016b861548744a68a77e986ff89d8b47</span>
                                     </div>
                                 </div>
                             </section>
@@ -2756,8 +2756,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">gh-pages</span></div>
                                     <div class="commit">
-                                        <span class="sha">#35fe478</span>
-                                        <span class="message">deploy: b6f9f91c99b70e88834c4a5b2663092c95bba016</span>
+                                        <span class="sha">#c997bdb</span>
+                                        <span class="message">deploy: 029868d3c7d02ce01a97c34b03f200616a654bbc</span>
                                     </div>
                                 </div>
                             </section>
@@ -2773,10 +2773,10 @@
                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">gh-pages</span></div>
+                                    <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <span class="sha">#05bd581</span>
-                                        <span class="message">deploy: 5d4f2288d218784e1beb659676c21e487d35b5bd</span>
+                                        <span class="sha">#029868d</span>
+                                        <span class="message">Update index.js</span>
                                     </div>
                                 </div>
                             </section>
@@ -2801,7 +2801,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="39.88666666666667 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="40.19666666666667 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -2824,7 +2824,7 @@
                   
                   
                 </div>
-                                <div class="text">Repositories have been deployed 1386 times</div>
+                                <div class="text">Repositories have been deployed 1389 times</div>
                             </div>
                         </div>
                         <div class="achievement a largeable-width-half">
@@ -3462,7 +3462,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 24 Nov 2021, 06:16:55 (timezone Europe/Bratislava) with lowlighter/metrics@3.16.0</span>
+                <span>Last updated 24 Nov 2021, 07:22:17 (timezone Europe/Bratislava) with lowlighter/metrics@3.16.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
