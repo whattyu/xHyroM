@@ -100,8 +100,8 @@ const countdown = () => {
             type: 'Birthday'
         },
         {
-            date: `December 25, ${now.getFullYear()} 00:00:00`,
-            dateDone: `December 25, ${now.getFullYear()} 23:59:60`,
+            date: `December 24, ${now.getFullYear()} 00:00:00`,
+            dateDone: `December 24, ${now.getFullYear()} 23:59:60`,
             type: 'Christmas'
         }
     ];
