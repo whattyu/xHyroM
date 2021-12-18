@@ -1559,12 +1559,12 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="328.90436838944555" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="328.90436838944555" y="0" width="35.89877680498128" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="364.80314519442686" y="0" width="32.41563057614008" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="397.21877577056694" y="0" width="29.665395677871867" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="426.8841714484388" y="0" width="24.459346077701763" height="8" fill="#a91e50"/>
-                    <rect mask="url(#languages-bar)" x="451.34351752614054" y="0" width="8.656482473859485" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="319.6954197168755" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="319.6954197168755" y="0" width="47.86692661014407" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="367.5623463270196" y="0" width="31.476090664006776" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="399.03843699102634" y="0" width="28.805569021619718" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="427.8440060126461" y="0" width="23.75041241032473" height="8" fill="#a91e50"/>
+                    <rect mask="url(#languages-bar)" x="451.5944184229708" y="0" width="8.405581577029182" height="8" fill="#000080"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -1574,8 +1574,8 @@
                       JavaScript
                     </div>
                             <small>
-                                <div>995 kB</div>
-                                <div>71.5%</div>
+                                <div>996 kB</div>
+                                <div>69.5%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -1585,7 +1585,7 @@
                     </div>
                             <small>
                                 <div>98.1 kB</div>
-                                <div>7.05%</div>
+                                <div>6.84%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -1595,7 +1595,7 @@
                     </div>
                             <small>
                                 <div>74 kB</div>
-                                <div>5.32%</div>
+                                <div>5.16%</div>
                             </small>
                         </div>
                     </section>
@@ -1606,8 +1606,8 @@
                       HTML
                     </div>
                             <small>
-                                <div>108 kB</div>
-                                <div>7.8%</div>
+                                <div>149 kB</div>
+                                <div>10.41%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -1617,7 +1617,7 @@
                     </div>
                             <small>
                                 <div>89.7 kB</div>
-                                <div>6.45%</div>
+                                <div>6.26%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -1627,7 +1627,7 @@
                     </div>
                             <small>
                                 <div>26.2 kB</div>
-                                <div>1.88%</div>
+                                <div>1.83%</div>
                             </small>
                         </div>
                     </section>
@@ -2678,10 +2678,10 @@
                                 <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.219047619047619 0,2.219047619047619 z"/>
                                 <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.219047619047619 1.7,3.219047619047619 z"/>
                             </g>
-                            <g transform="translate(-10.2, 10.952380952380953)">
+                            <g transform="translate(-10.2, 10.933333333333334)">
                                 <path fill="#9be9a8" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.0476190476190474 0,2.0476190476190474 z"/>
-                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.0476190476190474 1.7,3.0476190476190474 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,3.0666666666666664 0,2.0666666666666664 z"/>
+                                <path fill="#9be9a8" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,2.0666666666666664 1.7,3.0666666666666664 z"/>
                             </g>
                         </g>
                     </g>
@@ -2694,6 +2694,25 @@
     </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 1 commit in <span class="repo">xHyroM/Emojis</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#23c3cb6</span>
+                                        <span class="message">new</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -2774,25 +2793,6 @@ The <code>console.log</code> function parses these "variables" like %s only in t
                                 </div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">Garlic-Team/GCommands</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#d62907f</span>
-                                        <span class="message">deploy: 21841ae157ef5479ff227ea1e8eec86d4b544139</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
@@ -2813,7 +2813,7 @@ The <code>console.log</code> function parses these "variables" like %s only in t
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="162.64666666666665 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="162.75 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -2836,7 +2836,7 @@ The <code>console.log</code> function parses these "variables" like %s only in t
                   
                   
                 </div>
-                                <div class="text">Repositories have been deployed 2574 times</div>
+                                <div class="text">Repositories have been deployed 2575 times</div>
                             </div>
                         </div>
                         <div class="achievement a largeable-width-half">
@@ -3434,7 +3434,7 @@ The <code>console.log</code> function parses these "variables" like %s only in t
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 18 Dec 2021, 16:19:23 (timezone Europe/Bratislava) with lowlighter/metrics@3.16.0</span>
+                <span>Last updated 18 Dec 2021, 17:28:41 (timezone Europe/Bratislava) with lowlighter/metrics@3.16.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
